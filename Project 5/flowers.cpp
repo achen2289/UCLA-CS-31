@@ -17,7 +17,7 @@ using namespace std;
 int playOneRound(const char words[][MAXWORDLEN+1], int nWords, int wordnum);
 
 // text file location
-const char WORDFILENAME[] = "/Users/alexchen/Desktop/CS31/Project_5/smallwords.txt";
+const char WORDFILENAME[] = "smallwords.txt";
 
 // main to prompt user for input, calculate average score, min, and max, and invoke playOneRound
 int main()
